@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Flower = () => (
-	<section className="flower">
-	Flower products will go here
-	</section>
-	);
+class Flower extends Component {
+	render() {
+		return (
+			<section className="flower">
+			Flower products will go here
+			</section>
+		);
+	}
 
+}
 
 export default Flower;	
