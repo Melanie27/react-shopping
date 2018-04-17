@@ -6,7 +6,7 @@ import Flower from './components/Flower';
 import Edible from './components/Edible';
 import Extract from './components/Extract';
 import Other from './components/Other';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+/*import { Navbar, Jumbotron, Button } from 'react-bootstrap';*/
 
 class App extends Component {
   render() {
