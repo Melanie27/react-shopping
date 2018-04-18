@@ -16,10 +16,11 @@ class Flower extends Component {
           this.state.flowers.map( (flower, index) => 
             
             <div key={index} >
-              <li>
-              {flower.name}
-              <img src={flower.image} alt={flower.title}/>
-              </li>
+              
+              
+              <img className="img-responsive" src={flower.image} alt={flower.title}/>
+              <h2>{flower.name}</h2>
+				<h3>Price: ${flower.price}</h3>             
             </div>
           )
         }
